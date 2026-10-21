@@ -1,0 +1,9 @@
+reads/
+ref_genome/
+data/
+fastqc_output/
+trimmed_reads/
+trimmed/
+
+WID_intro-to-seq.sh
+
