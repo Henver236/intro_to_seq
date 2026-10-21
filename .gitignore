@@ -4,6 +4,7 @@ data/
 fastqc_output/
 trimmed_reads/
 trimmed/
+trimmed_data/
 
 WID_intro-to-seq.sh
 
