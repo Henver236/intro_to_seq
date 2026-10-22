@@ -21,5 +21,4 @@ bowtie2 \
 > $ALIGNED_DIR/SRR519926.sam \
 --dovetail
 
-
 echo "=== Alignment complete ==="
