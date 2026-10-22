@@ -7,9 +7,9 @@
 # -o pipefail: Return a failure status if any command in a pipeline fails.
 set -Eeuo pipefail
 
-# ============================================================
-# MultiQC - Quality control report for the sequencing pipeline
-# ============================================================
+# ======================================================================
+# MultiQC - Quality control report for the sequencing analysis pipeline
+# ======================================================================
 
 # Define the root directory of the project.
 # $HOME refers to the current user's home directory.
