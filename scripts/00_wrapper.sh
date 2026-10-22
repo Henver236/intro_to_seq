@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Let's set the variables for the project directory and the reads directory.
-PROJECT_DIR=~/intro-to-seq/project
+PROJECT_DIR=$HOME/intro-to-seq
 SCRIPTS_DIR="$PROJECT_DIR/scripts"
 
 ############ 01_download_reads.sh ######################################

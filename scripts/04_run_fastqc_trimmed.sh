@@ -2,10 +2,13 @@
 
 set -euo pipefail
 
-PROJECT_DIR=~/intro-to-seq/project
-TRIM_DIR=$PROJECT_DIR/trimmed
-mkdir -p "$PROJECT_DIR/fastqc_output_trimmed"
-QC_OUTPUT="$PROJECT_DIR/fastqc_output_trimmed"
+PROJECT_DIR=$HOME/intro-to-seq
+DATA_DIR="$PROJECT_DIR/data"
+READS_DIR=$DATA_DIR/reads
+TRIM_DIR=$DATA_DIR/trimmed
+REFERENCE_DIR="$PROJECT_DIR/ref_genome"   
+mkdir -p "$DATA_DIR/fastqc_output_trimmed"
+QC_OUTPUT="$DATA_DIR/fastqc_output_trimmed"
 
 echo "=== FastQC on trimmed reads started ==="
 

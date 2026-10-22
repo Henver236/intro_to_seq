@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_DIR=~/intro-to-seq/project
-READS_DIR="$PROJECT_DIR/reads"
-QC_OUTPUT="$PROJECT_DIR/fastqc_output"
-TRIMMED_DIR="$PROJECT_DIR/trimmed"
+PROJECT_DIR=$HOME/intro-to-seq
+DATA_DIR="$PROJECT_DIR/data"
+READS_DIR="$DATA_DIR/reads"
+QC_OUTPUT="$DATA_DIR/fastqc_output"
+TRIMMED_DIR="$DATA_DIR/trimmed"
 
 mkdir -p "$TRIMMED_DIR"
 cd "$TRIMMED_DIR"
